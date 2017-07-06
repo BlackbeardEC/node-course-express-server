@@ -1,0 +1,15 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Simple express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BlackBeard",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1"
+  }
+}
