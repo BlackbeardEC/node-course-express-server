@@ -18,11 +18,11 @@ app.use((req, res, next)=>{
   });
   next();
 });
-app.use((req, res)=>{
-  res.render('maintenance', {
-    pageTitle: 'Maintenance'
-  });
-});
+// app.use((req, res)=>{
+//   res.render('maintenance', {
+//     pageTitle: 'Maintenance'
+//   });
+// });
 
 hbs.registerPartials(__dirname + '/views/partials');
 hbs.registerHelper('getCurrentYear', ()=>{
